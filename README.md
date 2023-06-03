@@ -2,37 +2,6 @@
 
 This is developed as one of [Algoritma Academy](https://algorit.ma/) Data Analytics Specialization Capstone Projects. The deliverable of this project is a Python script to create a Telegram chatbot using `telebot` package. We will also deploy the chatbot to [Railway](https://railway.app/) and use `Flask` to set up the backend application.
 
-## Rubrics
-
-The maximum score you will obtain from this project is 16 points:  
-
-- **Setup (3 points)**
-    - [ ] **Prepare virtual environment**
-      - Please provide `requirements.txt` on the project folder.
-    - [ ] **Create Telegram bot API via BotFather**
-      - Please provide your bot link when making a submission.
-    - [ ] **Using `os.environ` to secure token**
-      - Important: Make sure you do not push `.env` to your GitHub Repository.
-
-- **Chatbot functionalities**
-    - **Basic function (3 points)**
-        - [ ] **Command `/start` or `/help`**: correctly respond to user trigger
-        - [ ] **Command `/about`**: provide developer information
-        - [ ] **Function `echo_all()`**: using `emoji`
-    - **Summary text report: `/summary` (3 points)**
-        - [ ] Perform necessary **data wrangling** steps to extract information
-        - [ ] Perform the right **mathematical calculation**
-        - [ ] Send **summary message** using `Template`
-    - **Visualization report: `/plot` (4 points)**
-        - [ ] Perform necessary **data wrangling** steps to extract information
-        - [ ] Perform the right **mathematical calculation**
-        - [ ] **Send plot** with caption
-        - [ ] **Tidy** plot layout (title, label, color, size)
-- **Application deployment (3 points)**
-    - [ ] Using **`Flask`** to serve the chatbot as an application
-    - [ ] **Deploy** to Railway
-    - [ ] Deployed chatbot run smoothly **without error**
-
 ## Project File Structure
 
 ```

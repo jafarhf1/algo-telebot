@@ -18,7 +18,7 @@ matplotlib.use('Agg')
 # SETUP: TELEGRAM BOT API TOKEN
 load_dotenv()
 TOKEN = os.environ['TOKEN']
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot(TOKEN, threaded=False)
 
 
 # -------------------- CHECKPOINT 1 --------------------

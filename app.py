@@ -17,11 +17,11 @@ def getMessage():
 @app.route("/")
 def webhook():
    bot.remove_webhook()
-   # TO DO: Edit the value of variable railway_public_domain according to the railway public domain
-   railway_public_domain = "_____"
+   # TO DO: Edit the value of variable public_domain according to the Railway/Gitpod/pythonanywhere public domain
+   public_domain = "divakartika.pythonanywhere.com"
 
    # NOTE: You need to use a publically available URL that the Telegram servers can reach.
-   bot.set_webhook(url=f'{railway_public_domain}/{TOKEN}')
+   bot.set_webhook(url=f'{public_domain}/{TOKEN}')
    return "Bot is running", 200
 
 if __name__ == "__main__":

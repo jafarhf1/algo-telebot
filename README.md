@@ -85,7 +85,7 @@ For instructions on how to prepare the virtual environment and requirements, ple
 
 ### Telegram Bot Account
 
-Create a bot that can provide report on Facebook daily ads for different marketing campaign. Here is an example: https://t.me/algo_capstone_telebot
+Create a bot that can provide report on Facebook daily ads for different marketing campaign. Here is an example: [https://t.me/algo_capstone_telebot](http://t.me/capstone_da_bot)
 
 <p align="center" width="100%">
     <img src="assets/readme/telegram-bot.png" width="350px"> 
